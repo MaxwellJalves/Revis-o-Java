@@ -1,4 +1,4 @@
-package br.com.javaessencial.estrutura;
+package br.com.javaessencial.estruturadedecisao;
 
 import java.util.Scanner;
 public class OperadorTernarioValidacao {

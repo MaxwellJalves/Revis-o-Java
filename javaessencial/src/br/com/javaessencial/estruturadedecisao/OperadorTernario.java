@@ -1,4 +1,4 @@
-package br.com.javaessencial.estrutura;
+package br.com.javaessencial.estruturadedecisao;
 
 /**
  * @author Maxwell.Costa Atribuindo o valor para duas variavel do tipo inteiro e

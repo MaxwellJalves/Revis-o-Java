@@ -1,4 +1,4 @@
-package br.com.javaessencial.estrutura;
+package br.com.javaessencial.estruturadedecisao;
 /**
  * @author Maxwell.Costa
  * @info Utilizando  a instrução Switch para simular uma atendente virtual que irá se apresentar
@@ -55,16 +55,16 @@ public class ProgramaInstrucaoSwitch {
 		try {
 			switch (validacao) {
 			case 1:
-				hobby = "Baladeiro";
+				hobby = "Baladeiro(a)";
 				break;
 			case 2:
 				hobby = "Músico";
 				break;
 			case 3:
-				hobby = "Praieiro";
+				hobby = "Praiero(a)";
 				break;
 			case 4:
-				hobby = "Peladeiro";
+				hobby = "Peladeiro(a)";
 				break;
 			case 5:
 				hobby = "Outros";
