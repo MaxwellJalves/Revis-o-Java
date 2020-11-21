@@ -21,9 +21,12 @@ public class ProgramaFor {
 			}
 			
 			for(int i=0; i < lista.length; i++) {
+				exibir();
 				System.out.println(lista[i]);
-				boolean n  = (lista[i].contains("max") ) ? true : false;
-
+				String n  = (lista[i].contains("max") ) ? localizarRegistro(i,lista[i]) : localizarRegistro(i,lista[i]) ;
+				if(n.equals("max")) {
+					System.out.println(n);
+				}
 			}
 		}catch(Exception e) {
 			e.printStackTrace();
@@ -31,8 +34,17 @@ public class ProgramaFor {
 			in.close();	
 		}
 		
-
-
+		
+	 
 	}
-
+  protected static void exibir() {
+	  StringBuffer sb = new StringBuffer();
+	  sb.append(" ##-- [Registros Adicionados] --##");
+  }
+  
+  protected static String localizarRegistro(int i ,String n) {
+	  StringBuffer sb = new StringBuffer();
+	  sb.append(" ##-- [Registros registro localizado na posição "+i+" |"+ n.toUpperCase()+ " ] --##");
+    return sb.toString();
+  }
 }
