@@ -23,7 +23,7 @@ public class ProgramaFor {
 			for(int i=0; i < lista.length; i++) {
 				exibir();
 				System.out.println(lista[i]);
-				String n  = (lista[i].contains("max") ) ? localizarRegistro(i,lista[i]) : localizarRegistro(i,lista[i]) ;
+				String n  = (lista[i].contains("max") ) ? localizarRegistro(i,lista[i]) : "não localizado"  ;
 				if(n.equals("max")) {
 					System.out.println(n);
 				}
@@ -40,11 +40,13 @@ public class ProgramaFor {
   protected static void exibir() {
 	  StringBuffer sb = new StringBuffer();
 	  sb.append(" ##-- [Registros Adicionados] --##");
+	  System.out.println(sb);
   }
   
   protected static String localizarRegistro(int i ,String n) {
 	  StringBuffer sb = new StringBuffer();
 	  sb.append(" ##-- [Registros registro localizado na posição "+i+" |"+ n.toUpperCase()+ " ] --##");
-    return sb.toString();
+	  System.out.println(sb);
+	  return "";
   }
 }
