@@ -47,7 +47,7 @@ public class ProgramaFor {
 
 	private static String localizarRegistro(int i, String n) {
 		StringBuffer sb = new StringBuffer();
-		sb.append(" ##-- [Registros registro localizado na posição " + i + " |" + n.toUpperCase() + " ] --##");
+		sb.append(" Atenção -> Localizamos um registro" + i + " |" + n.toUpperCase() + " ] --##");
 		System.out.println(sb);
 		return "";
 	}
