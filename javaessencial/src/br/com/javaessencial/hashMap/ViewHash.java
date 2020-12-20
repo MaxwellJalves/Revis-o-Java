@@ -16,10 +16,21 @@ public interface ViewHash {
 		lista.put("Equipe Medica", c2);
 
 
-		System.out.println((lista.size() > 3 ? "NUMERO DE REGISTROS INFORMADOS SUPERAM A QUANTIDADE LIMIDATA NAS CONFIGURACOES DO SISTEMA!" 
-				: "\n CRITERIO ATUAL RESPEITA AS CONFIGURAÇOES DO SISTEMA! \nEXIBINDO OS DADOS .. \n\n"));
+		System.out.println((lista.size() > 3 ? 
+				"NUMERO DE REGISTROS INFORMADOS SUPERAM A QUANTIDADE LIMIDATA NAS CONFIGURACOES DO SISTEMA!" 
+					: "\n CRITERIO ATUAL RESPEITA AS CONFIGURAÇOES DO SISTEMA! \nEXIBINDO OS DADOS .. \n\n"));
 		
 		System.out.println("HASH => { "+ lista.get("Equipe Tecnica"));
 		System.out.println("MAP =>  { " + lista.get("Equipe Medica"));
+		
+		System.out.println((verificarRegistros(lista.get("Equipe Tecnica").toString()))? "Registro Localizado!":"Não Localizamos nenhum registro no sistema");
+	}
+	private static boolean  verificarRegistros(String n) {
+		if(n.contains("Maxwell")) {
+			return true;
+		}else {
+			return false;
+		}
+		
 	}
 }
