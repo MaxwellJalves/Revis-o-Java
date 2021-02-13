@@ -45,7 +45,6 @@ public class HashMapView {
 		for(List<Integer> key : banco.keySet()) {
 			key.forEach(System.out::println);
 		}
-		
 		System.out.println(banco);
 
 	}
