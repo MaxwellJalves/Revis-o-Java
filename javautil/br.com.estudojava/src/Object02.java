@@ -18,7 +18,7 @@ public class Object02 {
 
         System.out.println("Quandidade de itens adicionados : " + quantidade);
 
-        System.out.println(itens.obtemItemSelecionado(4));
+        System.out.println(itens.obtemItemSelecionado(0));
 
     }
 }

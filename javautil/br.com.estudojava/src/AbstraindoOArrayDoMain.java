@@ -19,11 +19,7 @@ public class AbstraindoOArrayDoMain {
     }
 
     public Object obtemItemSelecionado(int item){
-        if(item == 0){
-            return this.objetos[0];
-        }
-
-        return  this.objetos[item-1];
+        return  this.objetos[item];
     }
 
 
