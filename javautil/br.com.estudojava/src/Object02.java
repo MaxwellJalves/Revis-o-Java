@@ -11,10 +11,14 @@ public class Object02 {
         Conta conta = new Conta(1,cliente);
 
         itens.adicionar(cliente);
+
         itens.adicionar(conta);
+
         var quantidade = itens.obterQuantidadeDeRegistrosUtilizados();
+
         System.out.println("Quandidade de itens adicionados : " + quantidade);
-        System.out.println(itens.obtemItemSelecionado(1));
-        System.out.println(itens.obtemItemSelecionado(2));
+
+        System.out.println(itens.obtemItemSelecionado(4));
+
     }
 }

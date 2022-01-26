@@ -22,6 +22,7 @@ public class AbstraindoOArrayDoMain {
         if(item == 0){
             return this.objetos[0];
         }
+
         return  this.objetos[item-1];
     }
 
