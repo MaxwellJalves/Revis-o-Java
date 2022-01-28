@@ -1,7 +1,7 @@
 import model.entity.Cliente;
 import model.entity.Conta;
 
-public class Object02 {
+public class UseCase02 {
 
     public static void main(String[] args) {
         AbstraindoOArrayDoMain itens = new AbstraindoOArrayDoMain();

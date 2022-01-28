@@ -1,7 +1,7 @@
 import model.entity.Cliente;
 import model.entity.Conta;
 
-public class Object01 {
+public class UseCase01 {
 
     public static void main(String [] args){
         for(String argumentos : args){
