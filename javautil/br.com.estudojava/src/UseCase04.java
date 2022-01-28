@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class UseCase04 {
     public static void main(String[] args) {
-        /*java 11   -  Obs: O generics entrou no java apartir da versão  1.7 onde conseguimos tipar/garantir que o dado
+        /*java 11   -  Obs: O generics entrou no java apartir da versão 1.5 e melhorado na versão 1.7 onde conseguimos tipar/garantir que o dado
         sejá igual ao esperado na implementação. */
 
         var cliente01 = new Cliente("Maxwell","Dev");
